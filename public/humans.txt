@@ -1,0 +1,13 @@
+/* TEAM */
+
+Nicolas Ha
+
+/* THANKS */
+
+Adrien Siegfried
+Arthur Brogniart
+
+/* SITE */
+  Last update:2019/08/01
+  Language: English
+  Doctype:HTML5
