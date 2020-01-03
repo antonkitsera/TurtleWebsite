@@ -8,11 +8,11 @@ import HeaderLogo from "../assets/header-logo.svg"
 
 const useMedia = (query) => {
     const [matches, setMatches] = useState(
-      window.matchMedia(query).matches
+        typeof window !== 'undefined' ? window.matchMedia(query).matches : null
     );
   
     useEffect(() => {
-     const media = window.matchMedia(query);
+     const media = typeof window !== 'undefined' ? window.matchMedia(query) : null;
      if (media.matches !== matches) {
        setMatches(media.matches);
      }
