@@ -6,13 +6,31 @@ import LoginGitHub from "./LoginGitHub"
 
 import HeaderLogo from "../assets/header-logo.svg"
 
-import useMediaQuery from 'react-hook-media-query'
+const useMedia = (query) => {
+    const [matches, setMatches] = useState(
+      window.matchMedia(query).matches
+    );
+  
+    useEffect(() => {
+     const media = window.matchMedia(query);
+     if (media.matches !== matches) {
+       setMatches(media.matches);
+     }
+  
+     const listener = () => setMatches(media.matches);
+     media.addListener(listener);
+  
+     return () => media.removeListener(listener);
+    }, [query]);
+  
+    return matches; 
+  }
 
 const Header = () => {
 
     const [active, setActive] = useState(false);
-
-    const mobile = useMediaQuery('(max-width: 1040px)');
+    
+    const mobile = useMedia("(max-width: 1040px)");
 
     const handleActive = () => {
         active && mobile ? setActive(false) : setActive(true);

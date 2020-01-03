@@ -23,7 +23,6 @@
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-hook-media-query": "^1.0.2",
     "react-hotjar": "^2.0.2",
     "react-static": "^7.2.2",
     "react-static-plugin-reach-router": "^7.2.2",
