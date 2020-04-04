@@ -1093,9 +1093,9 @@ acorn-walk@^6.1.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^6.0.7, acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.0.0:
   version "7.1.0"
@@ -8087,11 +8087,6 @@ react-helmet@^5.2.1:
     prop-types "^15.5.4"
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
-
-react-hook-media-query@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-hook-media-query/-/react-hook-media-query-1.0.2.tgz#6a03189eb8f3c5b92030225bdfb41a5bdad0e92f"
-  integrity sha512-4ZxwXzoaIl6smWR5Sc2a0DAI+oJAL4ycNOl57Dd18dDs/g/E8GM6bJlER5OhnlHMp4DPaOC3N+iYwZASw0ywgQ==
 
 react-hot-loader@^4.12.11, react-hot-loader@^4.3.6:
   version "4.12.15"
