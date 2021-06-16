@@ -7785,9 +7785,9 @@ postcss-value-parser@^4.0.2:
   integrity sha512-LmeoohTpp/K4UiyQCwuGWlONxXamGzCMtFxLq4W1nZVGIQLYvMCJx3yAF9qyyuFpflABI9yVdtJAqbihOsCsJQ==
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.18, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.18"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.18.tgz#4b9cda95ae6c069c67a4d933029eddd4838ac233"
-  integrity sha512-/7g1QXXgegpF+9GJj4iN7ChGF40sYuGYJ8WZu8DZWnmhQ/G36hfdk3q9LBJmoK+lZ+yzZ5KYpOoxq7LF1BxE8g==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -8087,11 +8087,6 @@ react-helmet@^5.2.1:
     prop-types "^15.5.4"
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
-
-react-hook-media-query@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-hook-media-query/-/react-hook-media-query-1.0.2.tgz#6a03189eb8f3c5b92030225bdfb41a5bdad0e92f"
-  integrity sha512-4ZxwXzoaIl6smWR5Sc2a0DAI+oJAL4ycNOl57Dd18dDs/g/E8GM6bJlER5OhnlHMp4DPaOC3N+iYwZASw0ywgQ==
 
 react-hot-loader@^4.12.11, react-hot-loader@^4.3.6:
   version "4.12.15"
